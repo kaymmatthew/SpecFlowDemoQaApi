@@ -1,0 +1,28 @@
+{
+  "BaseUrl": {
+    "DemoQa": "https://demoqa.com/"
+  },
+  "EndPoints": {
+    "GetAllBooks": "BookStore/v1/Books",
+    "CreateNewUser": "Account/v1/User",
+    "DeleteUser": "Account/v1/User/",
+    "AddBooks": "BookStore/v1/Books",
+    "DeleteSingleBook": "BookStore/v1/Book",
+    "DeleteBooks": "BookStore/v1/Books?UserId=",
+    "GetSingleBook": "BookStore/v1/Book?ISBN=",
+    "GetUser": "Account/v1/User/"
+  },
+  "UserCreateTestData": {
+    "UserName": "Auto-QaEngineer{0}",
+    "Password": "TestPass1!"
+  },
+  "AddBooksTestData": {
+    "Isbn1": "9781449337711",
+    "Isbn2": "9781449365035",
+    "Isbn3": "9781491904244",
+    "Isbn4": "9781491950296"
+  },
+  "UserIdSetting": {
+    "UserId": "1158e112-18d0-483f-b8a6-c16318b3145b"
+  }
+}
